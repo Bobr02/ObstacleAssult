@@ -8,6 +8,12 @@ AMovingPlatform::AMovingPlatform()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	const ConstructorHelpers::FObjectFinder<UStaticMesh> PlaneObj(TEXT("/Script/Engine.StaticMesh'/Engine/BasicShapes/Plane.Plane'"));
+
+	Plane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Plane"));
+	Plane ->SetupAttachment(RootComponent);
+	Plane->SetStaticMesh(PlaneObj.Object);
+	Plane->SetWorldScale3D(FVector(3.f));
 }
 
 // Called when the game starts or when spawned
@@ -26,13 +32,15 @@ void AMovingPlatform::Tick(float DeltaTime)
 	RotatePlatform(DeltaTime);
 }
 
-void AMovingPlatform::MovePlatform(const float& DeltaTime) {
+//Moving platform
+void AMovingPlatform::MovePlatform(const float DeltaTime) {
 
 	CurrentLocation = GetActorLocation();
 	SetActorLocation(CurrentLocation + (MovementSpeed * DeltaTime));
 }
 
-void AMovingPlatform::RotatePlatform(const float& DeltaTime) {
+//Rotating platform
+void AMovingPlatform::RotatePlatform(const float DeltaTime) {
 
 
 }

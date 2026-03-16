@@ -14,6 +14,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
+ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 OBSTACLEASSULT_API UClass* Z_Construct_UClass_AMovingPlatform();
 OBSTACLEASSULT_API UClass* Z_Construct_UClass_AMovingPlatform_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ObstacleAssult();
@@ -38,12 +39,12 @@ struct Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::NewProp_DeltaTime = { "DeltaTime", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MovingPlatform_eventMovePlatform_Parms, DeltaTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeltaTime_MetaData), NewProp_DeltaTime_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::NewProp_DeltaTime = { "DeltaTime", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MovingPlatform_eventMovePlatform_Parms, DeltaTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeltaTime_MetaData), NewProp_DeltaTime_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::NewProp_DeltaTime,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AMovingPlatform, nullptr, "MovePlatform", Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::MovingPlatform_eventMovePlatform_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AMovingPlatform, nullptr, "MovePlatform", Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::MovingPlatform_eventMovePlatform_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics::MovingPlatform_eventMovePlatform_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_AMovingPlatform_MovePlatform()
 {
@@ -56,10 +57,10 @@ UFunction* Z_Construct_UFunction_AMovingPlatform_MovePlatform()
 }
 DEFINE_FUNCTION(AMovingPlatform::execMovePlatform)
 {
-	P_GET_PROPERTY_REF(FFloatProperty,Z_Param_Out_DeltaTime);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_DeltaTime);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->MovePlatform(Z_Param_Out_DeltaTime);
+	P_THIS->MovePlatform(Z_Param_DeltaTime);
 	P_NATIVE_END;
 }
 // ********** End Class AMovingPlatform Function MovePlatform **************************************
@@ -83,12 +84,12 @@ struct Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::NewProp_DeltaTime = { "DeltaTime", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MovingPlatform_eventRotatePlatform_Parms, DeltaTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeltaTime_MetaData), NewProp_DeltaTime_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::NewProp_DeltaTime = { "DeltaTime", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MovingPlatform_eventRotatePlatform_Parms, DeltaTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeltaTime_MetaData), NewProp_DeltaTime_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::NewProp_DeltaTime,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AMovingPlatform, nullptr, "RotatePlatform", Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::MovingPlatform_eventRotatePlatform_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AMovingPlatform, nullptr, "RotatePlatform", Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::MovingPlatform_eventRotatePlatform_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_AMovingPlatform_RotatePlatform_Statics::MovingPlatform_eventRotatePlatform_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_AMovingPlatform_RotatePlatform()
 {
@@ -101,10 +102,10 @@ UFunction* Z_Construct_UFunction_AMovingPlatform_RotatePlatform()
 }
 DEFINE_FUNCTION(AMovingPlatform::execRotatePlatform)
 {
-	P_GET_PROPERTY_REF(FFloatProperty,Z_Param_Out_DeltaTime);
+	P_GET_PROPERTY(FFloatProperty,Z_Param_DeltaTime);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->RotatePlatform(Z_Param_Out_DeltaTime);
+	P_THIS->RotatePlatform(Z_Param_DeltaTime);
 	P_NATIVE_END;
 }
 // ********** End Class AMovingPlatform Function RotatePlatform ************************************
@@ -159,13 +160,19 @@ struct Z_Construct_UClass_AMovingPlatform_Statics
 		{ "Category", "MovingPlatform" },
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Plane_MetaData[] = {
+		{ "Category", "MovingPlatform" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_MovementSpeed;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Plane;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMovingPlatform_MovePlatform, "MovePlatform" }, // 1673197067
-		{ &Z_Construct_UFunction_AMovingPlatform_RotatePlatform, "RotatePlatform" }, // 1545384797
+		{ &Z_Construct_UFunction_AMovingPlatform_MovePlatform, "MovePlatform" }, // 3373471825
+		{ &Z_Construct_UFunction_AMovingPlatform_RotatePlatform, "RotatePlatform" }, // 1948188738
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -174,8 +181,10 @@ struct Z_Construct_UClass_AMovingPlatform_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, MovementSpeed), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MovementSpeed_MetaData), NewProp_MovementSpeed_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Plane = { "Plane", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, Plane), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Plane_MetaData), NewProp_Plane_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlatform_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MovementSpeed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Plane,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AMovingPlatform_Statics::DependentSingletons[])() = {
@@ -214,10 +223,10 @@ AMovingPlatform::~AMovingPlatform() {}
 struct Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 1779114851U) },
+		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 3708998229U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_711544537(TEXT("/Script/ObstacleAssult"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_1228473942(TEXT("/Script/ObstacleAssult"),
 	Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

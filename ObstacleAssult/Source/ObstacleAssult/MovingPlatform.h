@@ -14,15 +14,18 @@ class OBSTACLEASSULT_API AMovingPlatform : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMovingPlatform();
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FVector MovementSpeed = FVector(0.f, 0.f, 0.f);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector MovementSpeed = FVector(0.f, 0.f, 0.f);
+	UStaticMeshComponent* Plane;
 
 	UFUNCTION()
-	void MovePlatform(const float& DeltaTime);
+	void MovePlatform(const float DeltaTime);
 
 	UFUNCTION()
-	void RotatePlatform(const float& DeltaTime);
+	void RotatePlatform(const float DeltaTime);
 
 protected:
 	// Called when the game starts or when spawned
