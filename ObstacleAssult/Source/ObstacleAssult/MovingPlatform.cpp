@@ -20,7 +20,7 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-
+	StartingLocation = GetActorLocation();
 }
 
 // Called every frame
@@ -34,9 +34,16 @@ void AMovingPlatform::Tick(float DeltaTime)
 
 //Moving platform
 void AMovingPlatform::MovePlatform(const float DeltaTime) {
+	
+	SetActorLocation(GetActorLocation() + (MovementSpeed * DeltaTime));
 
-	CurrentLocation = GetActorLocation();
-	SetActorLocation(CurrentLocation + (MovementSpeed * DeltaTime));
+	Distance = FVector::Dist(GetActorLocation(), GetStartingPoint());
+
+	if (Distance >= MaxDistance) {
+		MovementSpeed = -MovementSpeed;
+
+		StartingLocation = GetActorLocation();
+	}
 }
 
 //Rotating platform

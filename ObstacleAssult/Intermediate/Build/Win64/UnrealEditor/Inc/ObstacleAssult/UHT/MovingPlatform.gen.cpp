@@ -20,6 +20,47 @@ OBSTACLEASSULT_API UClass* Z_Construct_UClass_AMovingPlatform_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ObstacleAssult();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class AMovingPlatform Function GetStartingPoint ********************************
+struct Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics
+{
+	struct MovingPlatform_eventGetStartingPoint_Parms
+	{
+		FVector ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MovingPlatform_eventGetStartingPoint_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AMovingPlatform, nullptr, "GetStartingPoint", Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::MovingPlatform_eventGetStartingPoint_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x40820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::MovingPlatform_eventGetStartingPoint_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AMovingPlatform_GetStartingPoint()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMovingPlatform_GetStartingPoint_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AMovingPlatform::execGetStartingPoint)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(FVector*)Z_Param__Result=P_THIS->GetStartingPoint();
+	P_NATIVE_END;
+}
+// ********** End Class AMovingPlatform Function GetStartingPoint **********************************
+
 // ********** Begin Class AMovingPlatform Function MovePlatform ************************************
 struct Z_Construct_UFunction_AMovingPlatform_MovePlatform_Statics
 {
@@ -115,6 +156,7 @@ void AMovingPlatform::StaticRegisterNativesAMovingPlatform()
 {
 	UClass* Class = AMovingPlatform::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "GetStartingPoint", &AMovingPlatform::execGetStartingPoint },
 		{ "MovePlatform", &AMovingPlatform::execMovePlatform },
 		{ "RotatePlatform", &AMovingPlatform::execRotatePlatform },
 	};
@@ -160,6 +202,10 @@ struct Z_Construct_UClass_AMovingPlatform_Statics
 		{ "Category", "MovingPlatform" },
 		{ "ModuleRelativePath", "MovingPlatform.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxDistance_MetaData[] = {
+		{ "Category", "MovingPlatform" },
+		{ "ModuleRelativePath", "MovingPlatform.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Plane_MetaData[] = {
 		{ "Category", "MovingPlatform" },
 		{ "EditInline", "true" },
@@ -167,10 +213,12 @@ struct Z_Construct_UClass_AMovingPlatform_Statics
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_MovementSpeed;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxDistance;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Plane;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMovingPlatform_GetStartingPoint, "GetStartingPoint" }, // 2037529276
 		{ &Z_Construct_UFunction_AMovingPlatform_MovePlatform, "MovePlatform" }, // 3373471825
 		{ &Z_Construct_UFunction_AMovingPlatform_RotatePlatform, "RotatePlatform" }, // 1948188738
 	};
@@ -181,9 +229,11 @@ struct Z_Construct_UClass_AMovingPlatform_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, MovementSpeed), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MovementSpeed_MetaData), NewProp_MovementSpeed_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MaxDistance = { "MaxDistance", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, MaxDistance), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxDistance_MetaData), NewProp_MaxDistance_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Plane = { "Plane", nullptr, (EPropertyFlags)0x001000000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingPlatform, Plane), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Plane_MetaData), NewProp_Plane_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovingPlatform_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MovementSpeed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_MaxDistance,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Plane,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::PropPointers) < 2048);
@@ -223,10 +273,10 @@ AMovingPlatform::~AMovingPlatform() {}
 struct Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 3708998229U) },
+		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 928796217U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_1228473942(TEXT("/Script/ObstacleAssult"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_1271073056(TEXT("/Script/ObstacleAssult"),
 	Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h__Script_ObstacleAssult_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -19,6 +19,9 @@ public:
 	FVector MovementSpeed = FVector(0.f, 0.f, 0.f);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MaxDistance = 200.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* Plane;
 
 	UFUNCTION()
@@ -26,6 +29,9 @@ public:
 
 	UFUNCTION()
 	void RotatePlatform(const float DeltaTime);
+
+	UFUNCTION()
+	FVector GetStartingPoint() const { return StartingLocation; }
 
 protected:
 	// Called when the game starts or when spawned
@@ -36,5 +42,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	FVector CurrentLocation;
+	FVector StartingLocation;
+	double Distance;
 };

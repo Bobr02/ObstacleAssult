@@ -18,6 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AMovingPlatform **********************************************************
 #define FID_Projekty_Unreal_ObstacleAssult_ObstacleAssult_ObstacleAssult_Source_ObstacleAssult_MovingPlatform_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetStartingPoint); \
 	DECLARE_FUNCTION(execRotatePlatform); \
 	DECLARE_FUNCTION(execMovePlatform);
 

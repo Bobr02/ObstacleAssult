@@ -60,13 +60,13 @@
 			"CombatCharacter.cpp.obj",
 			"CombatGameMode.cpp.obj",
 			"CombatPlayerController.cpp.obj",
-			"CombatActivationVolume.cpp.obj",
-			"CombatCheckpointVolume.cpp.obj",
 			"MovingPlatform.gen.cpp.obj",
 			"ObstacleAssult.init.gen.cpp.obj",
 			"MovingPlatform.cpp.obj"
 		],
 		"Module.ObstacleAssult.3.cpp.obj": [
+			"CombatActivationVolume.cpp.obj",
+			"CombatCheckpointVolume.cpp.obj",
 			"CombatDamageableBox.cpp.obj",
 			"CombatDummy.cpp.obj",
 			"CombatLavaFloor.cpp.obj",
