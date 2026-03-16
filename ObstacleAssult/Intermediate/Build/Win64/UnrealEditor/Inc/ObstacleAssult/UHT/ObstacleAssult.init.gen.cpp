@@ -21,13 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeObstacleAssult_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x1AE44732,
-				0xF4075D94,
+				0xACD609CD,
+				0x0073D828,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_ObstacleAssult.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_ObstacleAssult.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ObstacleAssult(Z_Construct_UPackage__Script_ObstacleAssult, TEXT("/Script/ObstacleAssult"), Z_Registration_Info_UPackage__Script_ObstacleAssult, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x1AE44732, 0xF4075D94));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ObstacleAssult(Z_Construct_UPackage__Script_ObstacleAssult, TEXT("/Script/ObstacleAssult"), Z_Registration_Info_UPackage__Script_ObstacleAssult, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xACD609CD, 0x0073D828));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -11,6 +11,8 @@
     <None Include="..\..\Source\ObstacleAssultEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +34,12 @@
     <Filter Include="Source\ObstacleAssult">
       <UniqueIdentifier>{336526E3-A265-34A2-9CA0-C233BA22692E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ObstacleAssult\MovingPlatform.cpp">
+      <Filter>Source\ObstacleAssult</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ObstacleAssult\MovingPlatform.h">
+      <Filter>Source\ObstacleAssult</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ObstacleAssult\ObstacleAssult.Build.cs">
       <Filter>Source\ObstacleAssult</Filter>
     </None>

@@ -1359,3 +1359,200 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.16-11.16.05:060][727]LogSlate: Window 'Open Asset' being destroyed
 [2026.03.16-11.16.05:064][727]LogSlate: Window 'Open Asset' being destroyed
 [2026.03.16-11.16.20:448][963]LogDerivedDataCache: C:/Users/Bóbr2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.16-11.19.42:386][568]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 318.335846
+[2026.03.16-11.19.43:387][571]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-11.19.43:387][571]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 319.002563, Update Interval: 315.337372
+[2026.03.16-11.25.01:749][969]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 637.698425
+[2026.03.16-11.25.02:749][972]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-11.25.02:749][972]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 638.365295, Update Interval: 355.290375
+[2026.03.16-11.31.04:139][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1000.087219
+[2026.03.16-11.31.05:139][455]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-11.31.05:139][455]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1000.753967, Update Interval: 359.591675
+[2026.03.16-11.32.48:273][677]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.03.16-11.32.48:277][677]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.03.16-11.32.54:112][ 14]LogSlate: External Image Picker: DecompressImage failed
+[2026.03.16-11.32.54:218][ 14]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.03.16-11.33.40:689][602]LogSlate: Window 'Project Settings' being destroyed
+[2026.03.16-11.33.40:694][602]LogSlate: Window 'Project Settings' being destroyed
+[2026.03.16-11.33.51:555][874]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.03.16-11.33.51:555][874]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.03.16-11.33.51:556][874]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Levels/Lvl_TestLevel.Lvl_TestLevel:PersistentLevel.StaticMeshActor_1
+[2026.03.16-11.33.51:556][874]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Levels/Lvl_TestLevel.Lvl_TestLevel:PersistentLevel.StaticMeshActor_1
+[2026.03.16-11.33.51:702][875]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.03.16-11.34.21:561][ 81]Cmd: TRANSACTION UNDO
+[2026.03.16-11.34.21:561][ 81]LogEditorTransaction: Undo Scale Elements
+[2026.03.16-11.34.36:225][787]Cmd: DELETE
+[2026.03.16-11.34.36:225][787]Cmd: ACTOR DELETE
+[2026.03.16-11.34.36:227][787]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.03.16-11.34.36:243][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.03.16-11.34.36:249][787]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2026.03.16-11.34.39:400][137]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.03.16-11.34.43:136][568]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.03.16-11.34.43:612][608]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: ================================================
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Total job queries 442, among them cache hits 31 (7.01%), DDC hits 336 (76.02%), Duplicates 68 (15.38%)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Tracking 343 distinct input hashes that result in 251 distinct outputs (73.18%)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: RAM used: 3,37 MiB of 4,00 GiB budget. Usage: 0.08%
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Shaders Compiled: 7
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Jobs assigned 7, completed 7 (100%)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Average time worker was idle: 63.00 s
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.10 s
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Job execution time: average 0.52 s, max 0.62 s
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Job life time (pending + execution): average 0.60 s, max 0.73
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Shader code size: total 48,676 KiB, numShaders 7, average 6,953 KiB, min 5,562 KiB, max 7,852 KiB
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.43 s
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Average processing rate: 4.89 jobs/sec
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Total thread time: 2,386 s
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Total thread preprocess time: 5,109 s
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Percentage time preprocessing: 214.15%
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Effective parallelization: 1.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.208286
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.41 sec, max 0.41 sec, min 0.40 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 51.00% of total time (compiled    3 times, average 0.41 sec, max 0.41 sec, min 0.40 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 36.61% of total time (compiled    3 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                                  FHitProxyVS - 12.40% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: === Material stats ===
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Materials Translated:    141
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Material Translation Only: 0.03 s (55%)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (4%)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: Material Cache Hits: 57 (40%)
+[2026.03.16-11.35.27:484][756]LogShaderCompilers: Display: ================================================
+[2026.03.16-11.36.30:408][821]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2026.03.16-11.37.05:421][832]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2026.03.16-11.37.15:226][974]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1371.170654
+[2026.03.16-11.37.15:386][993]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-11.37.15:386][993]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1371.320923, Update Interval: 351.192352
+[2026.03.16-11.37.36:205][267]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2026.03.16-11.38.37:333][184]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.16-11.38.37:340][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.16-11.38.37:340][184]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_Lvl_TestLevel
+[2026.03.16-11.38.37:346][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006701s)
+[2026.03.16-11.38.37:346][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/Lvl_TestLevel.Lvl_TestLevel to /Game/MyContent/Levels/UEDPIE_0_Lvl_TestLevel.Lvl_TestLevel (0.006732s)
+[2026.03.16-11.38.37:372][184]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.03.16-11.38.37:379][184]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TestLevel
+[2026.03.16-11.38.37:379][184]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2026.03.16-11.38.37:381][184]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.03.16-11.38.37:381][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.16-11.38.37:381][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.16-11.38.37:381][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.16-11.38.37:381][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.16-11.38.37:381][184]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.16-11.38.37:381][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.16-11.38.37:381][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.16-11.38.37:381][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.16-11.38.37:381][184]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.16-11.38.37:381][184]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.16-11.38.37:381][184]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.16-11.38.37:383][184]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.16-11.38.37:407][184]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2026.03.16-11.38.37:407][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.16-11.38.37:407][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.16-11.38.37:407][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.16-11.38.37:407][184]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.03.16-11.38.37:407][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.03.16-11.38.37:410][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.03.16-11.38.37:410][184]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.03.16-11.38.37:410][184]LogInit: FAudioDevice initialized with ID 3.
+[2026.03.16-11.38.37:410][184]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_TestLevel'.
+[2026.03.16-11.38.37:410][184]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.03.16-11.38.37:413][184]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.16-11.38.37:414][184]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_Lvl_TestLevel.Lvl_TestLevel up for play (max tick rate 0) at 2026.03.16-12.38.37
+[2026.03.16-11.38.37:414][184]LogWorld: Bringing up level for play took: 0.000844
+[2026.03.16-11.38.37:416][184]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.03.16-11.38.37:416][184]LogTemp: Warning: Dziala
+[2026.03.16-11.38.37:419][184]PIE: Server logged in
+[2026.03.16-11.38.37:421][184]PIE: Play in editor total start time 0,081 seconds.
+[2026.03.16-11.38.48:149][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.16-11.38.48:149][458]LogWorld: BeginTearingDown for /Game/MyContent/Levels/UEDPIE_0_Lvl_TestLevel
+[2026.03.16-11.38.48:149][458]LogWorld: UWorld::CleanupWorld for Lvl_TestLevel, bSessionEnded=true, bCleanupResources=true
+[2026.03.16-11.38.48:149][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.16-11.38.48:151][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.16-11.38.48:153][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.16-11.38.48:168][458]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.16-11.38.48:168][458]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.03.16-11.38.48:168][458]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.03.16-11.38.48:170][458]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.03.16-11.38.48:175][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.16-11.38.48:176][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.03.16-11.38.48:238][459]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2026.03.16-11.39.12:715][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.03.16-11.39.12:730][656]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/Levels/Lvl_TestLevel_Auto1
+[2026.03.16-11.39.12:730][656]LogSavePackage: Moving '../../../../../../Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Saved/Lvl_TestLevel_Auto1FC6DB5FB45ECCCB72F537AA71F0EEB93.tmp' to '../../../../../../Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Saved/Autosaves/Game/MyContent/Levels/Lvl_TestLevel_Auto1.umap'
+[2026.03.16-11.39.12:730][656]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Levels/Lvl_TestLevel' took 0.030
+[2026.03.16-11.39.12:730][656]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
+[2026.03.16-11.43.38:037][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1753.980591
+[2026.03.16-11.43.39:036][455]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-11.43.39:036][455]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1754.647339, Update Interval: 303.396698
+[2026.03.16-11.46.03:527][ 38]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.03.16-11.46.26:531][771]LogSlate: Window 'Add C++ Class' being destroyed
+[2026.03.16-11.46.45:700][984]Running E:/Unreal silnik/UE_5.6/UE_5.6/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject" -game -rocket -progress
+[2026.03.16-11.46.45:806][984]Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.03.16-11.46.45:806][984]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/ObstacleAssult.uproject" -game -rocket -progress
+[2026.03.16-11.46.46:207][984]Log file: C:\Users\B?br2\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2026.03.16-11.46.46:308][984]
+[2026.03.16-11.46.46:308][984]Generating VisualStudio2022 project files:
+[2026.03.16-11.46.46:308][984]Discovering modules, targets and source code for project...
+[2026.03.16-11.46.46:308][984]Adding projects for all targets...
+[2026.03.16-11.46.46:509][984]Available x64 toolchains (1):
+[2026.03.16-11.46.46:509][984] * G:\Visual studio\SDK\VC\Tools\MSVC\14.44.35207
+[2026.03.16-11.46.46:509][984]    (Family=14.44.35207, FamilyRank=1, Version=14.44.35223, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+[2026.03.16-11.46.46:509][984]Visual Studio 2022 compiler version 14.44.35223 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2026.03.16-11.46.47:010][984]Adding projects for all targets took 0.66s
+[2026.03.16-11.46.47:010][984]Adding projects for all game projects took 0.00s
+[2026.03.16-11.46.47:313][984]Adding projects for all modules took 0.31s
+[2026.03.16-11.46.47:414][984]Compiling Rules Assemblies
+[2026.03.16-11.46.47:414][984]Compiling Rules Assemblies 100%
+[2026.03.16-11.46.47:414][984]Creating Build Targets
+[2026.03.16-11.46.48:925][984]Creating Build Targets 100%
+[2026.03.16-11.46.48:925][984]Creating Build Targets took 1.54s
+[2026.03.16-11.46.48:925][984]Binding IntelliSense data...
+[2026.03.16-11.46.52:052][984]Binding IntelliSense data... 100%
+[2026.03.16-11.46.52:052][984]Binding IntelliSense data took 3.12s
+[2026.03.16-11.46.52:052][984]Writing project files...
+[2026.03.16-11.46.54:007][984]Writing project files... 100%
+[2026.03.16-11.46.54:007][984]Writing project files took 1.91s
+[2026.03.16-11.46.54:007][984]
+[2026.03.16-11.46.54:007][984]Generating QueryTargets data for editor...
+[2026.03.16-11.46.54:007][984]Compiling Rules Assemblies
+[2026.03.16-11.46.54:007][984]Compiling Rules Assemblies 100%
+[2026.03.16-11.46.54:007][984]Writing Query Target Info
+[2026.03.16-11.46.54:007][984]Writing Query Target Info 100%
+[2026.03.16-11.46.54:007][984]Generating QueryTargets data for editor took 0.01s
+[2026.03.16-11.46.54:007][984]
+[2026.03.16-11.46.54:007][984]Result: Succeeded
+[2026.03.16-11.46.54:007][984]Total execution time: 8.14 seconds
+[2026.03.16-11.46.54:217][984]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.03.16-11.46.54:860][984]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult/MovingPlatform.h'.
+[2026.03.16-11.46.54:860][984]LogVSAccessor: Warning: Couldn't open file 'E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult/MovingPlatform.cpp'.
+[2026.03.16-11.46.54:861][984]LogSlate: Window 'Add C++ Class' being destroyed
+[2026.03.16-11.47.03:794][ 12]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug1c8e52b5-da39-4eea-95e8-7e0263a25541 ----
+Running G:\Visual studio\SDK\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\BBR2~1\AppData\Local\Temp\51BD.tmp
+   Creating library E:\Projekty Unreal\ObstacleAssult\ObstacleAssult\ObstacleAssult\Binaries\Win64\UnrealEditor-ObstacleAssult.patch_0.lib and object E:\Projekty Unreal\ObstacleAssult\ObstacleAssult\ObstacleAssult\Binaries\Win64\UnrealEditor-ObstacleAssult.patch_0.exp
+Detoured run took 858ms
+[2026.03.16-11.47.04:845][ 14]LogClass: UPackage /Script/ObstacleAssult Reload.
+[2026.03.16-11.47.04:852][ 14]LogClass: Could not find existing class MovingPlatform in package /Script/ObstacleAssult for reload, assuming new or modified class
+[2026.03.16-11.47.04:879][ 14]LogTemp: Warning: Dziala
+[2026.03.16-11.47.04:961][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.03.16-11.47.05:254][ 15]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 38 classes unchanged, 16 scriptstructs unchanged, 50 functions remapped, 16 scriptstructs remapped
+[2026.03.16-11.47.05:254][ 15]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.03.16-11.49.14:145][454]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2090.087158
+[2026.03.16-11.49.15:144][457]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-11.49.15:144][457]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2090.753662, Update Interval: 321.682190
+[2026.03.16-11.55.35:927][731]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2471.866211
+[2026.03.16-11.55.36:927][734]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-11.55.36:927][734]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2472.532715, Update Interval: 310.171814
