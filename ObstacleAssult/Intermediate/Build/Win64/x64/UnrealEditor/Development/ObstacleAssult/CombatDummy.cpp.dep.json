@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_combat\\gameplay\\combatdummy.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\obstacleassulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassult\\definitions.obstacleassult.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_combat\\gameplay\\combatdummy.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_combat\\interfaces\\combatdamageable.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\combatdamageable.generated.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\combatdummy.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicsconstraintcomponent.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicsconstraintcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

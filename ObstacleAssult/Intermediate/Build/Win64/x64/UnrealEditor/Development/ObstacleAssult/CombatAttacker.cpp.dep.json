@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_combat\\interfaces\\combatattacker.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\obstacleassulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassult\\definitions.obstacleassult.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_combat\\interfaces\\combatattacker.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\combatattacker.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

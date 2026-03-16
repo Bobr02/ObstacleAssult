@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\combataicontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\obstacleassulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassult\\definitions.obstacleassult.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_combat\\ai\\combataicontroller.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\aicontroller.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\aitypes.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\navigationsystem\\public\\navigationsystemtypes.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\ai\\navigation\\navagentselector.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\navagentselector.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aitypes.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\perception\\aiperceptionlistenerinterface.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aiperceptionlistenerinterface.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\genericteamagentinterface.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\genericteamagentinterface.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\engine\\public\\visuallogger\\visualloggerdebugsnapshotinterface.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\visualloggerdebugsnapshotinterface.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aicontroller.generated.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\combataicontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

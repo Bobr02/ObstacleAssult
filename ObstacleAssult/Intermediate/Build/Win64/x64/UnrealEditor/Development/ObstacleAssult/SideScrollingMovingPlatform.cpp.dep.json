@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_sidescrolling\\gameplay\\sidescrollingmovingplatform.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\obstacleassulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassult\\definitions.obstacleassult.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_sidescrolling\\gameplay\\sidescrollingmovingplatform.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_sidescrolling\\interfaces\\sidescrollinginteractable.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\sidescrollinginteractable.generated.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\sidescrollingmovingplatform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

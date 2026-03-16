@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\platforminggamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\obstacleassulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassult\\definitions.obstacleassult.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\source\\obstacleassult\\variant_platforming\\platforminggamemode.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "e:\\unreal silnik\\ue_5.6\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "e:\\projekty unreal\\obstacleassult\\obstacleassult\\obstacleassult\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassult\\uht\\platforminggamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
