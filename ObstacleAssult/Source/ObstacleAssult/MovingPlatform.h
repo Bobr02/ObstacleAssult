@@ -24,14 +24,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* Plane;
 
+	UPROPERTY(EditAnywhere)
+	FRotator RotationVelocity;
+
+
 	UFUNCTION()
 	void MovePlatform(const float DeltaTime);
 
 	UFUNCTION()
 	void RotatePlatform(const float DeltaTime);
-
-	UFUNCTION()
-	FVector GetStartingPoint() const { return StartingLocation; }
 
 protected:
 	// Called when the game starts or when spawned
@@ -42,6 +43,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	FVector CurrentLocation;
 	FVector StartingLocation;
 	double Distance;
 };

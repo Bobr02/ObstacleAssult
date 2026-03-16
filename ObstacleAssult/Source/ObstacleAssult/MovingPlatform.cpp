@@ -34,20 +34,27 @@ void AMovingPlatform::Tick(float DeltaTime)
 
 //Moving platform
 void AMovingPlatform::MovePlatform(const float DeltaTime) {
-	
-	SetActorLocation(GetActorLocation() + (MovementSpeed * DeltaTime));
 
-	Distance = FVector::Dist(GetActorLocation(), GetStartingPoint());
+	CurrentLocation = GetActorLocation() + (MovementSpeed * DeltaTime);
+	SetActorLocation(CurrentLocation);
+
+	Distance = FVector::Dist(StartingLocation, GetActorLocation());
 
 	if (Distance >= MaxDistance) {
-		MovementSpeed = -MovementSpeed;
 
-		StartingLocation = GetActorLocation();
+		FVector MoveDirection = MovementSpeed.GetSafeNormal();
+		FVector NewStartingLocation = StartingLocation + MaxDistance * MoveDirection;
+
+		SetActorLocation(NewStartingLocation);
+		NewStartingLocation = NewStartingLocation;
+		MovementSpeed = -MovementSpeed;
 	}
 }
 
 //Rotating platform
 void AMovingPlatform::RotatePlatform(const float DeltaTime) {
 
+	FRotator RotationToAdd = RotationVelocity * DeltaTime;
+	AddActorLocalRotation(RotationToAdd);
 
 }

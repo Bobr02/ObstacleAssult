@@ -35,3 +35,4 @@
 #include "E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult/Variant_Combat/CombatCharacter.cpp"
 #include "E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult/Variant_Combat/CombatGameMode.cpp"
 #include "E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult/Variant_Combat/CombatPlayerController.cpp"
+#include "E:/Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Source/ObstacleAssult/Variant_Combat/Gameplay/CombatActivationVolume.cpp"
