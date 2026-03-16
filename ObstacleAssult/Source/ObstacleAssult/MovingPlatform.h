@@ -16,7 +16,13 @@ public:
 	AMovingPlatform();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FVector MovementSpeed = FVector(0.f, 0.f, 0.f);
+		FVector MovementSpeed = FVector(0.f, 0.f, 0.f);
+
+	UFUNCTION()
+	void MovePlatform(const float& DeltaTime);
+
+	UFUNCTION()
+	void RotatePlatform(const float& DeltaTime);
 
 protected:
 	// Called when the game starts or when spawned

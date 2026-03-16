@@ -1398,3 +1398,28 @@ Detoured run took 924ms
 [2026.03.16-12.47.49:151][852]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
 [2026.03.16-12.47.49:155][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
 [2026.03.16-12.47.49:237][854]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2026.03.16-12.50.49:985][887]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 364.598846
+[2026.03.16-12.50.50:985][890]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-12.50.50:985][890]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 365.265564, Update Interval: 317.611633
+[2026.03.16-12.56.11:226][931]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 685.839050
+[2026.03.16-12.56.12:226][934]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-12.56.12:226][934]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 686.505737, Update Interval: 341.438019
+[2026.03.16-12.57.00:288][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.03.16-12.57.00:295][ 78]LogWorldPartition: Can't find class descriptor '/Script/ObstacleAssult.MovingPlatform' for saving '/Game/MyContent/Levels/Lvl_TestLevel.Lvl_TestLevel:PersistentLevel.MovingPlatform_1'
+[2026.03.16-12.57.00:302][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/Levels/Lvl_TestLevel_Auto1
+[2026.03.16-12.57.00:304][ 78]LogSavePackage: Moving '../../../../../../Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Saved/Lvl_TestLevel_Auto166A6877C458F38BD266F9BA4C73B6C93.tmp' to '../../../../../../Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Saved/Autosaves/Game/MyContent/Levels/Lvl_TestLevel_Auto1.umap'
+[2026.03.16-12.57.00:305][ 78]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Levels/Lvl_TestLevel' took 0.032
+[2026.03.16-12.57.00:305][ 78]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2026.03.16-13.01.05:661][814]LogHotReload: New module detected: UnrealEditor-ObstacleAssult-0002.dll
+[2026.03.16-13.01.05:996][815]LogHotReload: Starting Hot-Reload from IDE
+[2026.03.16-13.01.06:045][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.03.16-13.01.06:579][815]LogClass: UPackage /Script/ObstacleAssult Reload.
+[2026.03.16-13.01.06:579][815]LogClass: UClass MovingPlatform Reload.
+[2026.03.16-13.01.06:589][815]LogClass: Could not find existing class MovingPlatform in package /Script/ObstacleAssult for reload, assuming new or modified class
+[2026.03.16-13.01.06:589][815]LogClass: Function MovePlatform is new or belongs to a modified class.
+[2026.03.16-13.01.06:589][815]LogClass: Function RotatePlatform is new or belongs to a modified class.
+[2026.03.16-13.01.06:613][815]LogTemp: Warning: Dziala
+[2026.03.16-13.01.06:625][815]Re-instancing MovingPlatform after reload.
+[2026.03.16-13.01.06:692][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.03.16-13.01.06:713][815]Display: HotReload took  0.7s.
+[2026.03.16-13.01.06:713][815]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 38 classes unchanged, 16 scriptstructs unchanged, 50 functions remapped, 16 scriptstructs remapped

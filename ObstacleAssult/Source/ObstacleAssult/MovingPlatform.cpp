@@ -22,8 +22,17 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	CurrentLocation = GetActorLocation();
+	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
+}
 
+void AMovingPlatform::MovePlatform(const float& DeltaTime) {
+
+	CurrentLocation = GetActorLocation();
 	SetActorLocation(CurrentLocation + (MovementSpeed * DeltaTime));
 }
 
+void AMovingPlatform::RotatePlatform(const float& DeltaTime) {
+
+
+}

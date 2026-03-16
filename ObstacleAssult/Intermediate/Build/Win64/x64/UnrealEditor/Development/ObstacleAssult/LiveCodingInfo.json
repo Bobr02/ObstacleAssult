@@ -63,6 +63,11 @@
 			"CombatActivationVolume.cpp.obj",
 			"CombatCheckpointVolume.cpp.obj",
 			"CombatDamageableBox.cpp.obj",
+			"MovingPlatform.gen.cpp.obj",
+			"ObstacleAssult.init.gen.cpp.obj",
+			"MovingPlatform.cpp.obj"
+		],
+		"Module.ObstacleAssult.3.cpp.obj": [
 			"CombatDummy.cpp.obj",
 			"CombatLavaFloor.cpp.obj",
 			"CombatActivatable.cpp.obj",
@@ -71,11 +76,6 @@
 			"CombatLifeBar.cpp.obj",
 			"AnimNotify_EndDash.cpp.obj",
 			"PlatformingCharacter.cpp.obj",
-			"MovingPlatform.gen.cpp.obj",
-			"ObstacleAssult.init.gen.cpp.obj",
-			"MovingPlatform.cpp.obj"
-		],
-		"Module.ObstacleAssult.3.cpp.obj": [
 			"PlatformingGameMode.cpp.obj",
 			"PlatformingPlayerController.cpp.obj",
 			"SideScrollingAIController.cpp.obj",
