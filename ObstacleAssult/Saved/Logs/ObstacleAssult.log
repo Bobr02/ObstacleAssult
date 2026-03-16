@@ -1423,3 +1423,47 @@ Detoured run took 924ms
 [2026.03.16-13.01.06:692][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
 [2026.03.16-13.01.06:713][815]Display: HotReload took  0.7s.
 [2026.03.16-13.01.06:713][815]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 38 classes unchanged, 16 scriptstructs unchanged, 50 functions remapped, 16 scriptstructs remapped
+[2026.03.16-13.01.59:645][310]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1034.258423
+[2026.03.16-13.02.00:645][313]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.02.00:645][313]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1034.925049, Update Interval: 354.828949
+[2026.03.16-13.08.10:720][473]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1405.333496
+[2026.03.16-13.08.11:721][476]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.08.11:721][476]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1406.000244, Update Interval: 325.514709
+[2026.03.16-13.14.01:761][526]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1756.373291
+[2026.03.16-13.14.02:762][529]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.14.02:762][529]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1757.040527, Update Interval: 329.755554
+[2026.03.16-13.20.13:807][642]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2128.417236
+[2026.03.16-13.20.15:141][646]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.20.15:141][646]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2129.417969, Update Interval: 348.773468
+[2026.03.16-13.26.38:513][796]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2513.106201
+[2026.03.16-13.26.39:512][799]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.26.39:512][799]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2513.772705, Update Interval: 302.865692
+[2026.03.16-13.32.24:552][834]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2859.141357
+[2026.03.16-13.32.25:552][837]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.32.25:552][837]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2859.807861, Update Interval: 353.179108
+[2026.03.16-13.38.51:260][994]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3245.837646
+[2026.03.16-13.38.52:260][997]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.38.52:260][997]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3246.504395, Update Interval: 331.286346
+[2026.03.16-13.45.13:300][140]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3627.868408
+[2026.03.16-13.45.14:300][143]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.45.14:300][143]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3628.535156, Update Interval: 307.762085
+[2026.03.16-13.46.42:163][407]LogDerivedDataCache: C:/Users/Bóbr2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.16-13.51.14:344][223]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3988.899902
+[2026.03.16-13.51.15:344][226]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.16-13.51.15:344][226]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3989.566650, Update Interval: 330.431213
+[2026.03.16-13.51.30:669][676]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.16-13.51.30:738][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.03.16-13.51.30:745][676]LogWorldPartition: Can't find class descriptor '/Script/ObstacleAssult.MovingPlatform' for saving '/Game/MyContent/Levels/Lvl_TestLevel.Lvl_TestLevel:PersistentLevel.MovingPlatform_1'
+[2026.03.16-13.51.30:753][676]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/Lvl_TestLevel
+[2026.03.16-13.51.30:753][676]LogSavePackage: Moving '../../../../../../Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Saved/Lvl_TestLevel713129154D937E90F9957B8228ADE3EA.tmp' to '../../../../../../Projekty Unreal/ObstacleAssult/ObstacleAssult/ObstacleAssult/Content/MyContent/Levels/Lvl_TestLevel.umap'
+[2026.03.16-13.51.30:763][676]LogFileHelpers: Saving map 'Lvl_TestLevel' took 0.064
+[2026.03.16-13.51.30:770][676]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.985 ms
+[2026.03.16-13.51.30:796][676]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.16-13.51.30:796][676]LogContentValidation: Enabled validators:
+[2026.03.16-13.51.30:796][676]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.16-13.51.30:796][676]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.16-13.51.30:796][676]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.16-13.51.30:796][676]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.16-13.51.30:796][676]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.16-13.51.30:796][676]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.16-13.51.30:796][676]AssetCheck: /Game/MyContent/Levels/Lvl_TestLevel Validating asset

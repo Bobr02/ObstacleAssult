@@ -25,6 +25,8 @@
 		],
 		"Module.ObstacleAssult.2.cpp.obj": [
 			"EnvQueryContext_Player.gen.cpp.obj",
+			"MovingPlatform.gen.cpp.obj",
+			"ObstacleAssult.init.gen.cpp.obj",
 			"ObstacleAssultCharacter.gen.cpp.obj",
 			"ObstacleAssultGameMode.gen.cpp.obj",
 			"ObstacleAssultPlayerController.gen.cpp.obj",
@@ -45,6 +47,7 @@
 			"SideScrollingStateTreeUtility.gen.cpp.obj",
 			"SideScrollingUI.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"MovingPlatform.cpp.obj",
 			"ObstacleAssult.cpp.obj",
 			"ObstacleAssultCharacter.cpp.obj",
 			"ObstacleAssultGameMode.cpp.obj",
@@ -62,10 +65,7 @@
 			"CombatPlayerController.cpp.obj",
 			"CombatActivationVolume.cpp.obj",
 			"CombatCheckpointVolume.cpp.obj",
-			"CombatDamageableBox.cpp.obj",
-			"MovingPlatform.gen.cpp.obj",
-			"ObstacleAssult.init.gen.cpp.obj",
-			"MovingPlatform.cpp.obj"
+			"CombatDamageableBox.cpp.obj"
 		],
 		"Module.ObstacleAssult.3.cpp.obj": [
 			"CombatDummy.cpp.obj",
